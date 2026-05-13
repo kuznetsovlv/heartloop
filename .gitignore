@@ -1,0 +1,184 @@
+# ------------------------------------------------------------
+# Base / OS
+# ------------------------------------------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Logs
+*.log
+logs/
+
+# Temp files
+tmp/
+temp/
+*.tmp
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# ------------------------------------------------------------
+# Build / Cache
+# ------------------------------------------------------------
+
+bin/
+obj/
+out/
+dist/
+build/
+publish/
+
+.cache/
+.cache-loader/
+.eslintcache
+
+# Coverage
+coverage/
+*.lcov
+
+# ------------------------------------------------------------
+# Node.js / React / TypeScript
+# ------------------------------------------------------------
+
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# React / Vite / Next / CRA
+.next/
+.nuxt/
+.vite/
+.vercel/
+storybook-static/
+
+# ------------------------------------------------------------
+# ASP.NET Core / .NET
+# ------------------------------------------------------------
+
+# User-specific files
+*.rsuser
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache/options
+.vs/
+
+# NuGet
+*.nupkg
+packages/
+!packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Publish
+appsettings.Development.json
+
+# Entity Framework
+*.dbmdl
+
+# IIS Express
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# ------------------------------------------------------------
+# Visual Studio
+# ------------------------------------------------------------
+
+# Profiling
+*.psess
+*.vsp
+*.vspx
+
+# Test Results
+TestResult*/
+TestResults/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# ------------------------------------------------------------
+# JetBrains Rider / WebStorm
+# ------------------------------------------------------------
+
+.idea/
+*.sln.iml
+
+# JetBrains cache
+.idea_modules/
+
+# ------------------------------------------------------------
+# VS Code
+# ------------------------------------------------------------
+
+.history/
+
+# ------------------------------------------------------------
+# Docker
+# ------------------------------------------------------------
+
+docker-compose.override.yml
+
+# ------------------------------------------------------------
+# Package Managers
+# ------------------------------------------------------------
+
+.pnp/
+.pnp.js
+
+# Yarn Berry
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# ------------------------------------------------------------
+# Misc
+# ------------------------------------------------------------
+
+*.pid
+*.seed
+
+# Certificates / secrets
+*.pfx
+*.key
+*.pem
+
+# SQLite
+*.sqlite
+*.db
+
+# ------------------------------------------------------------
+# Optional generated assets
+# ------------------------------------------------------------
+
+*.generated.cs
+generated/
+
+# ------------------------------------------------------------
+# Local configs
+# ------------------------------------------------------------
+
+*.local
+.local/
